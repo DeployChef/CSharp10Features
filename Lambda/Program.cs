@@ -4,9 +4,9 @@ public class Program
 {
     public void Main()
     {
-        Func<string> helloOldWorld = () => "Hello!";
+        Func<string> oldLambda = () => "Hello!";
 
-        var helloNewWorld = () => "Hello!";
-        var helloNull = string? () => null;
+        var newLambda = () => "Hello!";
+        var newLambdaNull = string? () => null;
     }
 }
