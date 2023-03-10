@@ -12,9 +12,9 @@
         : Parent(FirstName, LastName)
     {
         //Невозможно оверрайдить при sealed
-        //public  override string ToString()
-        //{
-        //    return $"Hi my name is: {FirstName} {LastName}. And my Phone is: {Phone}";
-        //}
+        public override string ToString()
+        {
+            return $"Hi my name is: {FirstName} {LastName}. And my Phone is: {Phone}";
+        }
     }
 }
